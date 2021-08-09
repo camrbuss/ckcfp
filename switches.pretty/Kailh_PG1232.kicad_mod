@@ -1,5 +1,5 @@
 (footprint "Kailh_PG1232" (version 20210722) (generator pcbnew) (layer "F.Cu")
-  (tedit 610F057E)
+  (tedit 61102398)
   (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d4fe802c-485a-48c7-a65c-90a1127c5cef)
@@ -12,6 +12,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5c0bbe2f-a5c0-45e2-b06c-320aeebb7fde)
   )
+  (fp_rect (start -7.25 -6.75) (end 7.25 6.75) (layer "Dwgs.User") (width 0.12) (fill none) (tstamp 4fe96cc5-63c0-4a7a-b9c5-e573e2fe1c00))
   (fp_rect (start -9 -8.5) (end 9 8.5) (layer "Cmts.User") (width 0.12) (fill none) (tstamp 85f92f94-f9b8-484c-989d-e4c625b83208))
   (fp_line (start -1.840188 3.911249) (end -1.800321 3.929272) (layer "Edge.Cuts") (width 0.001) (tstamp 00676e2b-69e5-4ea1-9a6e-e65c2e396a16))
   (fp_line (start 2.054057 3.76717) (end 2.086396 3.736395) (layer "Edge.Cuts") (width 0.001) (tstamp 00b475cd-86bc-4fab-8433-1151732702f5))
@@ -236,7 +237,7 @@
   (pad "2" thru_hole circle (at 2 5.4) (size 2 2) (drill 1.2) (layers *.Cu *.Mask) (tstamp 957da0d3-3475-4122-ac6f-4803f0bbbf9f))
   (pad "3" thru_hole circle (at 4.59 5.1) (size 2 2) (drill 1.2) (layers *.Cu *.Mask) (tstamp 5fc600ce-af2d-4666-a14d-e7577e176afe))
   (pad "4" thru_hole circle (at -2 5.4) (size 2 2) (drill 1.2) (layers *.Cu *.Mask) (tstamp 111810c5-e7a4-4540-848f-6412c8e2a930))
-  (zone (net 0) (net_name "") (layer "F.Cu") (tstamp f1312081-f10c-4cb8-aeb9-fd663cbabe81) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 11c862a0-dfba-4f05-810b-3e742273b5f8) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
     (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints allowed))
