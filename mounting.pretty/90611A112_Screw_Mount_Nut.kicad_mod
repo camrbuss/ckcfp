@@ -1,0 +1,51 @@
+(footprint "90611A112_Screw_Mount_Nut" (version 20210722) (generator pcbnew) (layer "F.Cu")
+  (tedit 61194AF3)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp ba65c475-08da-4e45-84bd-2cb2bd95b536)
+  )
+  (fp_text value "90611A112_Screw_Mount_Nut" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 8a1aa760-47a5-4b45-9cca-c23493d11d01)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a20d4476-3268-4137-90a0-8de566fc9009)
+  )
+  (fp_line (start 0.866025 0.5) (end 1.745907 1.008) (layer "B.SilkS") (width 0.12) (tstamp 0e4afeda-31c8-43d1-be42-8525a6c6d682))
+  (fp_line (start -0.866025 0.5) (end -1.745907 1.008) (layer "B.SilkS") (width 0.12) (tstamp 97115ef2-85ef-410d-8598-601c0b4baac3))
+  (fp_line (start 0 -2.016) (end 0 -1) (layer "B.SilkS") (width 0.12) (tstamp f2a8643e-bfc7-490f-a9b7-9f4159e839d0))
+  (fp_circle (center 0 0) (end 0.254 0) (layer "B.SilkS") (width 0.12) (fill none) (tstamp 0d2dd828-5cb4-469c-ace3-f70448c3578c))
+  (fp_line (start 0 -2.016) (end 0 -1) (layer "F.SilkS") (width 0.12) (tstamp 19a16e07-35c7-410d-8f29-025d8f01ae28))
+  (fp_line (start 0.866025 0.5) (end 1.745907 1.008) (layer "F.SilkS") (width 0.12) (tstamp 35be6f91-b6b9-4a90-956d-67cafab48fb7))
+  (fp_line (start -0.866025 0.5) (end -1.745907 1.008) (layer "F.SilkS") (width 0.12) (tstamp 6d80dfdc-e3cd-4819-8dc8-b3d6b6cbdd39))
+  (fp_circle (center 0 0) (end 0.254 0) (layer "F.SilkS") (width 0.12) (fill none) (tstamp cfb376dc-fa2c-4b88-b05f-1001a82ed5a3))
+  (fp_circle (center 0 0) (end 9.525 0) (layer "Dwgs.User") (width 0.12) (fill none) (tstamp 1fccb44b-63f7-41fd-9f74-baf031b4c8ba))
+  (fp_circle (center 0 0) (end 3.96875 0) (layer "Dwgs.User") (width 0.12) (fill none) (tstamp 85e59a4f-c79d-4221-9172-f3979fa4d5ec))
+  (fp_circle (center 0 0) (end 3.175 0) (layer "Cmts.User") (width 0.12) (fill none) (tstamp acc75765-89c8-463f-a2d9-3878163eb308))
+  (fp_circle (center 0 -7.1) (end 2.1 -7.1) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 24f6195e-12e9-469c-b4e8-8c23dd57a705))
+  (fp_circle (center -6.14878 3.55) (end -4.04878 3.55) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 6c86a6a2-9bcc-4028-a906-d116b69999a9))
+  (fp_circle (center 6.14878 3.55) (end 8.24878 3.55) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 76adc335-4fcb-444d-a7d8-e91de4fda72c))
+  (pad "" np_thru_hole circle (at -6.14878 3.55) (size 4 4) (drill 2.1) (layers *.Mask) (tstamp 3a7d0b38-6db9-4ee8-9c6d-11fb2bdee76e))
+  (pad "" np_thru_hole circle (at 0 -7.1) (size 4 4) (drill 2.1) (layers *.Mask) (tstamp e2059b80-1d2e-4c5b-85c3-850c71825a1b))
+  (pad "" np_thru_hole circle (at 6.14878 3.55) (size 4 4) (drill 2.1) (layers *.Mask) (tstamp fe7fa202-cde0-499f-a366-4203ecf3eecf))
+  (group "" (id 51ee8e83-1946-48bd-a60d-beaaaff3f0e9)
+    (members
+      19a16e07-35c7-410d-8f29-025d8f01ae28
+      35be6f91-b6b9-4a90-956d-67cafab48fb7
+      6d80dfdc-e3cd-4819-8dc8-b3d6b6cbdd39
+    )
+  )
+  (group "" (id e60c2a0b-0597-4a4b-ac7d-3ae8daa4bafb)
+    (members
+      0e4afeda-31c8-43d1-be42-8525a6c6d682
+      97115ef2-85ef-410d-8598-601c0b4baac3
+      f2a8643e-bfc7-490f-a9b7-9f4159e839d0
+    )
+  )
+  (model "${KIPRJMOD}/ckcfp/mounting.pretty/90611A112.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
