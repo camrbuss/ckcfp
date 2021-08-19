@@ -1,5 +1,5 @@
 (footprint "90611A112_Screw_Mount_Nut" (version 20210722) (generator pcbnew) (layer "F.Cu")
-  (tedit 61194AF3)
+  (tedit 611DD2E6)
   (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ba65c475-08da-4e45-84bd-2cb2bd95b536)
@@ -26,9 +26,12 @@
   (fp_circle (center 0 -7.1) (end 2.1 -7.1) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 24f6195e-12e9-469c-b4e8-8c23dd57a705))
   (fp_circle (center -6.14878 3.55) (end -4.04878 3.55) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 6c86a6a2-9bcc-4028-a906-d116b69999a9))
   (fp_circle (center 6.14878 3.55) (end 8.24878 3.55) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 76adc335-4fcb-444d-a7d8-e91de4fda72c))
-  (pad "" np_thru_hole circle (at -6.14878 3.55) (size 4 4) (drill 2.1) (layers *.Mask) (tstamp 3a7d0b38-6db9-4ee8-9c6d-11fb2bdee76e))
-  (pad "" np_thru_hole circle (at 0 -7.1) (size 4 4) (drill 2.1) (layers *.Mask) (tstamp e2059b80-1d2e-4c5b-85c3-850c71825a1b))
-  (pad "" np_thru_hole circle (at 6.14878 3.55) (size 4 4) (drill 2.1) (layers *.Mask) (tstamp fe7fa202-cde0-499f-a366-4203ecf3eecf))
+  (pad "" np_thru_hole circle (at -6.14878 3.55) (size 4 4) (drill 2.1) (layers *.Mask)
+    (clearance 1.05) (tstamp 3a7d0b38-6db9-4ee8-9c6d-11fb2bdee76e))
+  (pad "" np_thru_hole circle (at 0 -7.1) (size 4 4) (drill 2.1) (layers *.Mask)
+    (clearance 1.05) (tstamp e2059b80-1d2e-4c5b-85c3-850c71825a1b))
+  (pad "" np_thru_hole circle (at 6.14878 3.55) (size 4 4) (drill 2.1) (layers *.Mask)
+    (clearance 1.05) (tstamp fe7fa202-cde0-499f-a366-4203ecf3eecf))
   (group "" (id 51ee8e83-1946-48bd-a60d-beaaaff3f0e9)
     (members
       19a16e07-35c7-410d-8f29-025d8f01ae28
