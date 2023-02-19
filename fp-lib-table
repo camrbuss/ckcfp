@@ -3,4 +3,5 @@
   (lib (name "ckcfp-modules")(type "KiCad")(uri "${KIPRJMOD}/ckcfp-modules.pretty")(options "")(descr ""))
   (lib (name "ckcfp-switches")(type "KiCad")(uri "${KIPRJMOD}/ckcfp-switches.pretty")(options "")(descr ""))
   (lib (name "ckcfp-graphics")(type "KiCad")(uri "${KIPRJMOD}/ckcfp-graphics.pretty")(options "")(descr ""))
+  (lib (name "ckcfp-ics")(type "KiCad")(uri "${KIPRJMOD}/ckcfp-ics.pretty")(options "")(descr ""))
 )
