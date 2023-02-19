@@ -1,9 +1,9 @@
-(kicad_symbol_lib (version 20210619) (generator kicad_symbol_editor)
-  (symbol "modules:PICO" (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "RP_PICO" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -12.7 -55.88 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "PICO" (id 1) (at -12.7 -53.34 0)
+    (property "Value" "RP_PICO" (id 1) (at -12.7 -53.34 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "modules:raspberrypi_pico" (id 2) (at -2.54 0 0)
@@ -12,12 +12,13 @@
     (property "Datasheet" "" (id 3) (at -2.54 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "PICO_0_1"
+    (symbol "RP_PICO_0_1"
       (rectangle (start -12.7 0) (end 12.7 -50.8)
-        (stroke (width 0.1524)) (fill (type none))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
-    (symbol "PICO_1_1"
+    (symbol "RP_PICO_1_1"
       (pin input line (at -15.24 -1.27 0) (length 2.54)
         (name "GP0" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))

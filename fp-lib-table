@@ -1,5 +1,6 @@
 (fp_lib_table
-  (lib (name "connectors")(type "KiCad")(uri "${KIPRJMOD}/connectors.pretty")(options "")(descr ""))
-  (lib (name "modules")(type "KiCad")(uri "${KIPRJMOD}/modules.pretty")(options "")(descr ""))
-  (lib (name "switches")(type "KiCad")(uri "${KIPRJMOD}/switches.pretty")(options "")(descr ""))
+  (lib (name "ckcfp-connectors")(type "KiCad")(uri "${KIPRJMOD}/ckcfp-connectors.pretty")(options "")(descr ""))
+  (lib (name "ckcfp-modules")(type "KiCad")(uri "${KIPRJMOD}/ckcfp-modules.pretty")(options "")(descr ""))
+  (lib (name "ckcfp-switches")(type "KiCad")(uri "${KIPRJMOD}/ckcfp-switches.pretty")(options "")(descr ""))
+  (lib (name "ckcfp-graphics")(type "KiCad")(uri "${KIPRJMOD}/ckcfp-graphics.pretty")(options "")(descr ""))
 )
