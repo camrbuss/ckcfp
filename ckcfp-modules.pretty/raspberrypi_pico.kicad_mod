@@ -1,4 +1,5 @@
-(footprint "raspberrypi_pico" (version 20210722) (generator pcbnew) (layer "F.Cu")
+(footprint "raspberrypi_pico" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
   (tedit 611DD33E)
   (fp_text reference "REF**" (at 10.16 -7.62 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -216,7 +217,7 @@
   (pad "TP4" smd roundrect (at 8 -43 90) (size 1.5 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.188) (tstamp d47aa0e2-9557-402c-bb58-06729e7d70ff))
   (pad "TP5" smd roundrect (at 8 -40.5 90) (size 1.5 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.188) (tstamp 1e83bb8a-ad8a-4d7a-bfea-aae22f6a2bcd))
   (pad "TP6" smd roundrect (at 8 -38 90) (size 1.5 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.188) (tstamp 77facbba-ebcf-430c-a83f-de863ce77991))
-  (model "${KIPRJMOD}/ckcfp/modules.pretty/Pico-R3.step"
+  (model "${CKCFP_HOME}/ckcfp-modules.pretty/Pico-R3.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
